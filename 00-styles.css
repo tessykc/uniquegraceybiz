@@ -637,17 +637,7 @@ ul.row {
 
 .card-image {
     animation: 3s infinite alternate slide-in;
-        @keyframes slide-in {
-            from {
-                translate: 150vw 0;
-                scale: 200% 1;
-            }
-    
-            to {
-                translate: 0 0;
-                scale: 100% 1;
-            }
-        }
+        
 }
 
 .card-work .card-inner {
