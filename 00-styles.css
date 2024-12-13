@@ -244,10 +244,10 @@ template {
     --section-footer-align: center;
 
     /** HEADER **/
-    --header-padding: 4rem 0 0;
+    --header-padding: 2rem 0 0;
 
     /** FOOTER **/
-    --footer-padding: 5rem 0 1rem;
+    --footer-padding: 3rem 0 1rem;
 
     /** NAVBAR **/
     --nav-item-font-family: var(--font-family-headings);
@@ -454,7 +454,7 @@ ul.row {
 .header {
     padding: var(--header-padding);
     position: relative;
-    z-index: 3;
+    z-index: 2;
     background: transparent;
 }
 
