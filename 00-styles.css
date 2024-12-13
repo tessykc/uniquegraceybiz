@@ -464,6 +464,12 @@ ul.row {
     align-items: center;
 }
 
+.header-size {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Footer
       ============================= */
 
