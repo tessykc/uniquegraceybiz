@@ -7,9 +7,19 @@
     pointer-events: none;
 }
 
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .header-logo {
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 50s linear;
     }
 }
 
@@ -24,19 +34,25 @@
     color: white;
 }
 
+.footer {
+    background-color: #7f94bd;
+}
+
 .App-link {
     color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+@keyframes transition {
 
-    to {
-        transform: rotate(360deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .pos-image1 {
+        animation: transition infinite 50s linear;
     }
 }
+
+
 
 .nav {
     margin: 0;
