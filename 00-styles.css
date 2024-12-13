@@ -622,12 +622,6 @@ ul.row {
     transform: scale(0.95);
 }
 
-.card-work .card-image img {
-    height: 30rem;
-    width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-}
 
 .card-work:hover .card-image {
     transform: scale(1.2);
@@ -700,39 +694,6 @@ ul.row {
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color, background-color;
-}
-
-/* Card TESTIMONIAL
-      ============================= */
-
-.card-testimonial {
-    text-align: center;
-}
-
-.card-testimonial .card-avatar {
-    border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
-}
-
-.card-testimonial .card-quote cite {
-    display: block;
-    padding-top: 1rem;
-    color: var(--color-primary);
-}
-
-.card-testimonial .card-quote {
-    position: relative;
-}
-
-.card-testimonial .card-quote::before {
-    content: '\201C';
-    position: absolute;
-    top: -4.5rem;
-    left: -1rem;
-    color: #efeded;
-    font-size: 10rem;
-    z-index: -1;
 }
 
 /*** ARTICLE PAGE ***/

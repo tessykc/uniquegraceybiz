@@ -38,21 +38,47 @@
     background-color: #7f94bd;
 }
 
-.App-link {
-    color: #61dafb;
+.pos-image-container {
+    width: 500px;
+    /* Adjust width as needed */
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-@keyframes transition {
-
+.pos-image{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .pos-image1 {
-        animation: transition infinite 50s linear;
-    }
+.pos-image{
+    width: 100%;
+    flex-shrink: 0;
 }
 
+.pos-image img {
+    width: 100%;
+    height: auto;
+}
 
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
 
 .nav {
     margin: 0;
