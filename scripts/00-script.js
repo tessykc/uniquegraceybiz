@@ -12,15 +12,29 @@ function showNextImage() {
 
 setInterval(showNextImage, 4000); // Change image every 4 seconds
 
-let currenImage = 0;
+let currentImage = 0;
 
 function showImage() {
     const slide = document.querySelector('.slides1');
     const image = document.querySelectorAll('.slides1 img');
-    currenImage++;
-    if (currenImage >= image.length) {
-        currenImage = 0;
+    currentImage++;
+    if (currentImage >= image.length) {
+        currentImage = 0;
     }
-    slide.style.transform = `translateX(-${currenImage * 100}%)`;
+    slide.style.transform = `translateX(-${currentImage * 100}%)`;
 }
-setInterval(showImage, 3000);
+setInterval(showImage, 4000);
+
+let currentSlide = 0;
+
+function showSlide() {
+    const slide1 = document.querySelector('.slide2');
+    const image1 = document.querySelectorAll('.slide2 img');
+    currentSlide++;
+    if (currentSlide >= image1.length) {
+        currentSlide = 0;
+    }
+    slide1.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+setInterval(showSlide, 4000);
+

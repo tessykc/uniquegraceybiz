@@ -24,3 +24,13 @@
     width: 100%;
     border: none;
 }
+
+.slide2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide2 img {
+    width: 100%;
+    border: none;
+}

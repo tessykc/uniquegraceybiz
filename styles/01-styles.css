@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    background-image: url("uniquegraceybiz/images/grow.jpg");
 }
 
 .header-logo {
@@ -24,7 +25,7 @@
 }
 
 .header {
-    background-color: #7f94bd;
+    
     min-height: 50vh;
     display: flex;
     flex-direction: column;
