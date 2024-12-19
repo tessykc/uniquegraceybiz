@@ -20,14 +20,9 @@
 }
 
 
-.card-work:hover .card-image {
+.card-work:hover {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
-
-}
-
-.card-image {
-    animation: 3s infinite alternate slide-in;
 
 }
 
